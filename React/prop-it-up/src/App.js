@@ -1,13 +1,13 @@
 import './App.css';
-import PersonCard from './components/PersonCard';
+// import PersonCard from './components/PersonCard';
 // import UserForm from './components/UserForm';
-// import HookForm from './components/HookForm';
+import HookForm from './components/HookForm';
 // import HandlingValidations from './components/HandlingValidations';
 
 function App() {
   return (
     <div className="App">
-      <PersonCard 
+      {/* <PersonCard 
       firstName={"Bo"} 
       lastName={"Sin"} 
       age={ 43 } 
@@ -29,11 +29,11 @@ function App() {
       firstName={"Jane"} 
       lastName={"Doe"} 
       age={ 35 } 
-      hairColor={"blonde"} />
+      hairColor={"blonde"} /> */}
 
       {/* <UserForm /> */}
 
-      {/* <HookForm /> */}
+      <HookForm />
 
       {/* <HandlingValidations /> */}
       
